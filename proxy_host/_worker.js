@@ -1,4 +1,4 @@
-const hostname = "laowang.9calie.ip-ddns.com";
+const hostname = "laowang.free2025.filegear-sg.me";
 export default {
     async fetch(request, env, ctx) {
         if (request.headers.get('Upgrade') !== 'websocket') {
