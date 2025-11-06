@@ -1,4 +1,4 @@
-const hostname = "laowang.free2025.filegear-sg.me";
+const hostname = "snippets.neib.cn";
 export default {
     async fetch(request, env, ctx) {
         if (request.headers.get('Upgrade') !== 'websocket') {
